@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 1.5em;
+  background-image: url("github.png");
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin: 0.5em 0;
+  font-size: 2.5em;
+}
+
+input {
+  border: none;
+  width: 320px;
+  padding: 0.8em;
+}
+
+.outputs {
+  margin: 3em 0 1em;
+  display: none;
+
+  .h2 {
+    margin: 0.5em 0;
+  }
+
+  img {
+    margin: 1em 0 0.5em;
+    width: 150px;
+  }
+
+  .username-output,
+  .followers-output,
+  .repositories-output {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .show-repos-btn {
+    margin: 3em 0;
+    border: none;
+    padding: 1em 2em;
+    background-color: #777;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
+.not-found {
+  color: #f00;
+  font-weight: bold;
+}
+
+.repos {
+  margin-bottom: 2em;
+  display: none;
+
+  .h2-repos {
+    margin: 0.5em 0;
+  }
+
+  a {
+    color: #fff;
+  }
+}
